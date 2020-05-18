@@ -1,0 +1,2816 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.20.0125.0835                               -->
+<workbook original-version='18.1' source-build='2019.4.3 (20194.20.0125.0835)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='time_series_covid19_confirmed_global (time_series_covid19_confirmed_global)' inline='true' name='federated.0oxqfuk17wgbf9197tlx11uk8htl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='time_series_covid19_confirmed_global' name='excel-direct.15x7gre0wnsj5n0zlp84m00m7q1m'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Tayanie/Desktop/Pós-Graduação/13 - TCC/Dados/time_series_covid19_confirmed_global.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.15x7gre0wnsj5n0zlp84m00m7q1m' name='time_series_covid19_confirmed_global' table='[time_series_covid19_confirmed_global$]' type='table'>
+          <columns gridOrigin='A1:DD267:no:A1:DD267:0' header='yes' outcome='2'>
+            <column datatype='string' name='Province/State' ordinal='0' />
+            <column datatype='string' name='Country/Region' ordinal='1' />
+            <column datatype='string' name='Lat' ordinal='2' />
+            <column datatype='string' name='Long' ordinal='3' />
+            <column datatype='integer' name='1/22/20' ordinal='4' />
+            <column datatype='integer' name='1/23/20' ordinal='5' />
+            <column datatype='integer' name='1/24/20' ordinal='6' />
+            <column datatype='integer' name='1/25/20' ordinal='7' />
+            <column datatype='integer' name='1/26/20' ordinal='8' />
+            <column datatype='integer' name='1/27/20' ordinal='9' />
+            <column datatype='integer' name='1/28/20' ordinal='10' />
+            <column datatype='integer' name='1/29/20' ordinal='11' />
+            <column datatype='integer' name='1/30/20' ordinal='12' />
+            <column datatype='integer' name='1/31/20' ordinal='13' />
+            <column datatype='integer' name='2/1/20' ordinal='14' />
+            <column datatype='integer' name='2/2/20' ordinal='15' />
+            <column datatype='integer' name='2/3/20' ordinal='16' />
+            <column datatype='integer' name='2/4/20' ordinal='17' />
+            <column datatype='integer' name='2/5/20' ordinal='18' />
+            <column datatype='integer' name='2/6/20' ordinal='19' />
+            <column datatype='integer' name='2/7/20' ordinal='20' />
+            <column datatype='integer' name='2/8/20' ordinal='21' />
+            <column datatype='integer' name='2/9/20' ordinal='22' />
+            <column datatype='integer' name='2/10/20' ordinal='23' />
+            <column datatype='integer' name='2/11/20' ordinal='24' />
+            <column datatype='integer' name='2/12/20' ordinal='25' />
+            <column datatype='integer' name='2/13/20' ordinal='26' />
+            <column datatype='integer' name='2/14/20' ordinal='27' />
+            <column datatype='integer' name='2/15/20' ordinal='28' />
+            <column datatype='integer' name='2/16/20' ordinal='29' />
+            <column datatype='integer' name='2/17/20' ordinal='30' />
+            <column datatype='integer' name='2/18/20' ordinal='31' />
+            <column datatype='integer' name='2/19/20' ordinal='32' />
+            <column datatype='integer' name='2/20/20' ordinal='33' />
+            <column datatype='integer' name='2/21/20' ordinal='34' />
+            <column datatype='integer' name='2/22/20' ordinal='35' />
+            <column datatype='integer' name='2/23/20' ordinal='36' />
+            <column datatype='integer' name='2/24/20' ordinal='37' />
+            <column datatype='integer' name='2/25/20' ordinal='38' />
+            <column datatype='integer' name='2/26/20' ordinal='39' />
+            <column datatype='integer' name='2/27/20' ordinal='40' />
+            <column datatype='integer' name='2/28/20' ordinal='41' />
+            <column datatype='integer' name='2/29/20' ordinal='42' />
+            <column datatype='integer' name='3/1/20' ordinal='43' />
+            <column datatype='integer' name='3/2/20' ordinal='44' />
+            <column datatype='integer' name='3/3/20' ordinal='45' />
+            <column datatype='integer' name='3/4/20' ordinal='46' />
+            <column datatype='integer' name='3/5/20' ordinal='47' />
+            <column datatype='integer' name='3/6/20' ordinal='48' />
+            <column datatype='integer' name='3/7/20' ordinal='49' />
+            <column datatype='integer' name='3/8/20' ordinal='50' />
+            <column datatype='integer' name='3/9/20' ordinal='51' />
+            <column datatype='integer' name='3/10/20' ordinal='52' />
+            <column datatype='integer' name='3/11/20' ordinal='53' />
+            <column datatype='integer' name='3/12/20' ordinal='54' />
+            <column datatype='integer' name='3/13/20' ordinal='55' />
+            <column datatype='integer' name='3/14/20' ordinal='56' />
+            <column datatype='integer' name='3/15/20' ordinal='57' />
+            <column datatype='integer' name='3/16/20' ordinal='58' />
+            <column datatype='integer' name='3/17/20' ordinal='59' />
+            <column datatype='integer' name='3/18/20' ordinal='60' />
+            <column datatype='integer' name='3/19/20' ordinal='61' />
+            <column datatype='integer' name='3/20/20' ordinal='62' />
+            <column datatype='integer' name='3/21/20' ordinal='63' />
+            <column datatype='integer' name='3/22/20' ordinal='64' />
+            <column datatype='integer' name='3/23/20' ordinal='65' />
+            <column datatype='integer' name='3/24/20' ordinal='66' />
+            <column datatype='integer' name='3/25/20' ordinal='67' />
+            <column datatype='integer' name='3/26/20' ordinal='68' />
+            <column datatype='integer' name='3/27/20' ordinal='69' />
+            <column datatype='integer' name='3/28/20' ordinal='70' />
+            <column datatype='integer' name='3/29/20' ordinal='71' />
+            <column datatype='integer' name='3/30/20' ordinal='72' />
+            <column datatype='integer' name='3/31/20' ordinal='73' />
+            <column datatype='integer' name='4/1/20' ordinal='74' />
+            <column datatype='integer' name='4/2/20' ordinal='75' />
+            <column datatype='integer' name='4/3/20' ordinal='76' />
+            <column datatype='integer' name='4/4/20' ordinal='77' />
+            <column datatype='integer' name='4/5/20' ordinal='78' />
+            <column datatype='integer' name='4/6/20' ordinal='79' />
+            <column datatype='integer' name='4/7/20' ordinal='80' />
+            <column datatype='integer' name='4/8/20' ordinal='81' />
+            <column datatype='integer' name='4/9/20' ordinal='82' />
+            <column datatype='integer' name='4/10/20' ordinal='83' />
+            <column datatype='integer' name='4/11/20' ordinal='84' />
+            <column datatype='integer' name='4/12/20' ordinal='85' />
+            <column datatype='integer' name='4/13/20' ordinal='86' />
+            <column datatype='integer' name='4/14/20' ordinal='87' />
+            <column datatype='integer' name='4/15/20' ordinal='88' />
+            <column datatype='integer' name='4/16/20' ordinal='89' />
+            <column datatype='integer' name='4/17/20' ordinal='90' />
+            <column datatype='integer' name='4/18/20' ordinal='91' />
+            <column datatype='integer' name='4/19/20' ordinal='92' />
+            <column datatype='integer' name='4/20/20' ordinal='93' />
+            <column datatype='integer' name='4/21/20' ordinal='94' />
+            <column datatype='integer' name='4/22/20' ordinal='95' />
+            <column datatype='integer' name='4/23/20' ordinal='96' />
+            <column datatype='integer' name='4/24/20' ordinal='97' />
+            <column datatype='integer' name='4/25/20' ordinal='98' />
+            <column datatype='integer' name='4/26/20' ordinal='99' />
+            <column datatype='integer' name='4/27/20' ordinal='100' />
+            <column datatype='integer' name='4/28/20' ordinal='101' />
+            <column datatype='integer' name='4/29/20' ordinal='102' />
+            <column datatype='integer' name='4/30/20' ordinal='103' />
+            <column datatype='integer' name='5/1/20' ordinal='104' />
+            <column datatype='integer' name='5/2/20' ordinal='105' />
+            <column datatype='integer' name='5/3/20' ordinal='106' />
+            <column datatype='integer' name='5/4/20' ordinal='107' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Province/State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Province/State]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>Province/State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country/Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country/Region]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>Country/Region</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lat</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Lat]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>Lat</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Long]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>Long</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/22/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/22/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>1/22/20</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/23/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/23/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>1/23/20</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/24/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/24/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>1/24/20</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/25/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/25/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>1/25/20</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/26/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/26/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>1/26/20</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/27/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/27/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>1/27/20</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/28/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/28/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>1/28/20</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/29/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/29/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>1/29/20</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/30/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/30/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>1/30/20</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/31/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/31/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>1/31/20</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/1/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/1/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/1/20</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/2/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/2/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/2/20</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/3/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/3/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/3/20</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/4/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/4/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/4/20</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/5/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/5/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/5/20</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/6/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/6/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/6/20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/7/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/7/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/7/20</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/8/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/8/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/8/20</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/9/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/9/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/9/20</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/10/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/10/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/10/20</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/11/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/11/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/11/20</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/12/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/12/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/12/20</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/13/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/13/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/13/20</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/14/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/14/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/14/20</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/15/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/15/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/15/20</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/16/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/16/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/16/20</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/17/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/17/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/17/20</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/18/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/18/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/18/20</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/19/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/19/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/19/20</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/20/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/20/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/20/20</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/21/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/21/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/21/20</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/22/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/22/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/22/20</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/23/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/23/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/23/20</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/24/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/24/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/24/20</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/25/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/25/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/25/20</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/26/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/26/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/26/20</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/27/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/27/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/27/20</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/28/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/28/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/28/20</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/29/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/29/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>2/29/20</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/1/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/1/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/1/20</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/2/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/2/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/2/20</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/3/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/3/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/3/20</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/4/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/4/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/4/20</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/5/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/5/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/5/20</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/6/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/6/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/6/20</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/7/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/7/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/7/20</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/8/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/8/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/8/20</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/9/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/9/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/9/20</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/10/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/10/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/10/20</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/11/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/11/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/11/20</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/12/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/12/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/12/20</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/13/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/13/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/13/20</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/14/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/14/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/14/20</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/15/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/15/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/15/20</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/16/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/16/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/16/20</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/17/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/17/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/17/20</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/18/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/18/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/18/20</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/19/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/19/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/19/20</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/20/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/20/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/20/20</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/21/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/21/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/21/20</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/22/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/22/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/22/20</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/23/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/23/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/23/20</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/24/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/24/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/24/20</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/25/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/25/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/25/20</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/26/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/26/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/26/20</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/27/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/27/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/27/20</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/28/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/28/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/28/20</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/29/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/29/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/29/20</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/30/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/30/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/30/20</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/31/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/31/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>3/31/20</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/1/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/1/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/1/20</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/2/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/2/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/2/20</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/3/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/3/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/3/20</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/4/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/4/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/4/20</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/5/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/5/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/5/20</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/6/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/6/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/6/20</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/7/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/7/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/7/20</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/8/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/8/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/8/20</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/9/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/9/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/9/20</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/10/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/10/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/10/20</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/11/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/11/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/11/20</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/12/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/12/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/12/20</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/13/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/13/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/13/20</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/14/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/14/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/14/20</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/15/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/15/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/15/20</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/16/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/16/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/16/20</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/17/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/17/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/17/20</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/18/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/18/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/18/20</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/19/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/19/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/19/20</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/20/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/20/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/20/20</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/21/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/21/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/21/20</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/22/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/22/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/22/20</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/23/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/23/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/23/20</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/24/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/24/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/24/20</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/25/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/25/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/25/20</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/26/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/26/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/26/20</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/27/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/27/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/27/20</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/28/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/28/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/28/20</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/29/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/29/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/29/20</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/30/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/30/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>4/30/20</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5/1/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[5/1/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>5/1/20</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5/2/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[5/2/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>5/2/20</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5/3/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[5/3/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>5/3/20</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5/4/20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[5/4/20]</local-name>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias>5/4/20</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[time_series_covid19_confirmed_global]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:DD267:no:A1:DD267:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Casos' datatype='integer' name='[5/4/20]' role='measure' type='quantitative' />
+      <column aggregation='None' caption='País' datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <aliases>
+          <alias key='&quot;Brazil&quot;' value='Brasil' />
+          <alias key='&quot;France&quot;' value='França' />
+          <alias key='&quot;Germany&quot;' value='Alemanha' />
+          <alias key='&quot;Iran&quot;' value='Irã' />
+          <alias key='&quot;Italy&quot;' value='Italia' />
+          <alias key='&quot;Spain&quot;' value='Espanha' />
+          <alias key='&quot;Turkey&quot;' value='Turquia' />
+          <alias key='&quot;United Kingdom&quot;' value='Reino Unido' />
+          <alias key='&quot;US&quot;' value='Estados Unidos' />
+        </aliases>
+      </column>
+      <column aggregation='None' datatype='string' name='[Lat]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column aggregation='None' datatype='string' name='[Long]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='None' datatype='string' name='[Province/State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column-instance column='[Country/Region]' derivation='None' name='[none:Country/Region:nk]' pivot='key' type='nominal' />
+      <drill-paths>
+        <drill-path name='Country/Region, Province/State'>
+          <field>[Country/Region]</field>
+          <field>[Province/State]</field>
+        </drill-path>
+      </drill-paths>
+      <layout dim-ordering='alphabetic' dim-percentage='0.261411' measure-ordering='alphabetic' measure-percentage='0.738589' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Country/Region:nk]' palette='red_10_0' type='palette'>
+            <map to='#ae123a'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#c11a3b'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#d2283d'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#e03841'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#eb4c48'>
+              <bucket>&quot;Iran&quot;</bucket>
+            </map>
+            <map to='#f26250'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#f67561'>
+              <bucket>&quot;US&quot;</bucket>
+            </map>
+            <map to='#fa8971'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#fc9b87'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#feac9d'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brazil&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Casos de covid-19 no mundo</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='time_series_covid19_confirmed_global (time_series_covid19_confirmed_global)' name='federated.0oxqfuk17wgbf9197tlx11uk8htl' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0oxqfuk17wgbf9197tlx11uk8htl'>
+            <column caption='Casos' datatype='integer' name='[5/4/20]' role='measure' type='quantitative' />
+            <column aggregation='None' caption='País' datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <aliases>
+                <alias key='&quot;Brazil&quot;' value='Brasil' />
+                <alias key='&quot;France&quot;' value='França' />
+                <alias key='&quot;Germany&quot;' value='Alemanha' />
+                <alias key='&quot;Iran&quot;' value='Irã' />
+                <alias key='&quot;Italy&quot;' value='Italia' />
+                <alias key='&quot;Spain&quot;' value='Espanha' />
+                <alias key='&quot;Turkey&quot;' value='Turquia' />
+                <alias key='&quot;United Kingdom&quot;' value='Reino Unido' />
+                <alias key='&quot;US&quot;' value='Estados Unidos' />
+              </aliases>
+            </column>
+            <column-instance column='[Country/Region]' derivation='None' name='[none:Country/Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[5/4/20]' derivation='Sum' name='[sum:5/4/20:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[Longitude (generated)]' field-type='quantitative' max='22315794.679872148' min='-17759222.005706348' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[Latitude (generated)]' field-type='quantitative' max='14606984.142019991' min='-8407383.3765925188' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[sum:5/4/20:qk]' palette='red_10_0' type='interpolated' />
+            <encoding attr='size-bar' field='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[sum:5/4/20:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[none:Country/Region:nk]' />
+              <color column='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[sum:5/4/20:qk]' />
+              <geometry column='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0oxqfuk17wgbf9197tlx11uk8htl].[Latitude (generated)]</rows>
+        <cols>[federated.0oxqfuk17wgbf9197tlx11uk8htl].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{4ED293FB-E0CA-4D49-945A-333A81CE530D}' />
+    </worksheet>
+    <worksheet name='Planilha 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Países com maiores ocorrências de casos</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='time_series_covid19_confirmed_global (time_series_covid19_confirmed_global)' name='federated.0oxqfuk17wgbf9197tlx11uk8htl' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0oxqfuk17wgbf9197tlx11uk8htl'>
+            <column caption='Casos' datatype='integer' name='[5/4/20]' role='measure' type='quantitative' />
+            <column aggregation='None' caption='País' datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <aliases>
+                <alias key='&quot;Brazil&quot;' value='Brasil' />
+                <alias key='&quot;France&quot;' value='França' />
+                <alias key='&quot;Germany&quot;' value='Alemanha' />
+                <alias key='&quot;Iran&quot;' value='Irã' />
+                <alias key='&quot;Italy&quot;' value='Italia' />
+                <alias key='&quot;Spain&quot;' value='Espanha' />
+                <alias key='&quot;Turkey&quot;' value='Turquia' />
+                <alias key='&quot;United Kingdom&quot;' value='Reino Unido' />
+                <alias key='&quot;US&quot;' value='Estados Unidos' />
+              </aliases>
+            </column>
+            <column-instance column='[Country/Region]' derivation='None' name='[none:Country/Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[5/4/20]' derivation='Sum' name='[sum:5/4/20:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[none:Country/Region:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Country/Region:nk]' member='&quot;Brazil&quot;' />
+              <groupfilter function='member' level='[none:Country/Region:nk]' member='&quot;France&quot;' />
+              <groupfilter function='member' level='[none:Country/Region:nk]' member='&quot;Germany&quot;' />
+              <groupfilter function='member' level='[none:Country/Region:nk]' member='&quot;Italy&quot;' />
+              <groupfilter function='member' level='[none:Country/Region:nk]' member='&quot;Russia&quot;' />
+              <groupfilter function='member' level='[none:Country/Region:nk]' member='&quot;Spain&quot;' />
+              <groupfilter function='member' level='[none:Country/Region:nk]' member='&quot;Turkey&quot;' />
+              <groupfilter function='member' level='[none:Country/Region:nk]' member='&quot;United Kingdom&quot;' />
+              <groupfilter function='member' level='[none:Country/Region:nk]' member='&quot;US&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[none:Country/Region:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[sum:5/4/20:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0oxqfuk17wgbf9197tlx11uk8htl].[none:Country/Region:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[sum:5/4/20:qk]' scope='cols' value='Casos' />
+            <encoding attr='space' class='0' field='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[sum:5/4/20:qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='1000000' minor-origin='0' minor-show='false' minor-spacing='100000' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0oxqfuk17wgbf9197tlx11uk8htl].[none:Country/Region:nk]</rows>
+        <cols>[federated.0oxqfuk17wgbf9197tlx11uk8htl].[sum:5/4/20:qk]</cols>
+      </table>
+      <simple-id uuid='{00FF98DB-F208-4D6B-8486-D3525D9CF1F8}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='42'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0oxqfuk17wgbf9197tlx11uk8htl].[sum:5/4/20:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0oxqfuk17wgbf9197tlx11uk8htl].[none:Country/Region:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{20FC1DA8-A097-432E-9FE9-D9DE4009A3FD}' />
+    </window>
+    <window class='worksheet' name='Planilha 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0oxqfuk17wgbf9197tlx11uk8htl].[none:Country/Region:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{833B1378-458C-418E-8DD5-FAA46A4CC5C9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Planilha 1' width='192'>
+      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
+      QDC2wkhoCRHQqFWoJIlCsUQonqTKaUcUBGwGPYvxJGVFRqdWo5Ykoqk0kVSakYkpBIMJu92K
+      zuIlOXSccuV6alxmJEn6Ygr0YZDLWS6euUDEv4Wvfuvfccn0z0TnU2v7N6zfTs1sP/OGWswN
+      9UxNjtLdVouqmGVvLsWbfUGeXVeBbq1STKC6spqlZAKUEmWtlXqPl9HZEBVaNa+cuERtcwcA
+      K9kEkfkFXkgmeGzXDry6HANRPRWSgKnRi3FZYSoaxbt1Jy6P5z68nY8PURQ+iO6fnvpqRheW
+      WYgnGV0MI4kiaklEq1YzH4uvFeJkCwXsJiOXBq5xcTbO/k2dmEpJtIqIooDeZOLCj/+Fgbia
+      P9OXEITV7/HFFOhDMHD2JI1b9qBBRqvVUjQasF4v5kBQszwzyOHxFartBnwmDTN5LdU2A1o5
+      g0pfSXONlXMLy1xbWCaezV2XXipTkmVKsoiQixNKrJDMFZiJyHzjkZ2sLC5SlGVMWjN1zU0c
+      bHPQNzTJ1VCGLe1NVLgkRqeiDC7MsGh00rZu3f19Sb8BFEVhaWkJQ2wJterO0WxFUbgwPk1/
+      cJ6WCg9725rY1VKP3WhgYG6evtnVKWaxVMZuNFAoxFmJi3ylw09ZEZicCWMuxuifmCO9Emff
+      1/81+xoEhhdXSVNkWf7CAD4MyWSUd15/iXfeOUkyEyeFG1GrIptNk07GianMbPTrGVpMMD01
+      xqbWeuRckrcvDeGx6Kl2e9jT0Yrb7ebcYpRoJstg/1V6p0K8cmWY7V1NnLgwwP7NPezurOLV
+      U5fZ3N3BXDCE1u6hXpfj7LzA1kYrobkx/unQCSK6SqrkEFO4ePjg/s9t2vTw+TM0OSx32Vvm
+      0tWLvHTqIk+1Bnj9yFF+8MqbjExOcO7SZcYGR6iuqCSSSnN0aAy9Rk21289CaIRjw/O4zSWs
+      zia2r2+ikEgiKiXefeV5Eo7NrK9cTTeZnZ35IhJ8TyjlCaeL2A1qkpki4eA0matnCDicLARn
+      SMgauuqrODUwTHdrEzatxLXhETIlgZraRiqtqy98LLRMPpmgw/fJzNWHl6O4Hn4Kn8/3iVzv
+      s0Q2m+XKGy/T47t7MQ3Af/r5C/z/7Z3Xb1xneoefM7334XDYm0SRlCiqWrJVbHltucKAkYWB
+      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
+      4UMAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Planilha 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3dZ3gc12Hu8f/MzvaGRe8gABIg0dh7FUVKJEWqy5IsW7HlEtly7MRJFOfG
+      dvLcJPc+sR1b11GLIzuOZcuyrGpRhUWsIiESJFgAkugA0fv2vjtzP4CUqE4SFEFg5/eJXMzO
+      nt2dd8+ZOWfOERRFUVCpEpQ40QVQqSaSGgBVQlMDoEpoagBUCU0NgCqhqQFQJTQ1AKqEpgZA
+      ldDUAKgSmhoAVUJTA6BKaGoAVAlNDYAqoakBUCU0NQCqhKYGQJXQ1ACoEpoaAFVCUwOgSmhq
+      AMZBURRkWZ7oYqjGQQ3AOEUikYkugmocpIkuwKSnKCix2ESXQnWZ1ACMU+jUKQZ/8tOJLobq
+      MqlNIFVCu8QaIEL7sT3seKsOnygAySy+dRNLi9I/lCQ5HkMRJTTCxe255cABbMuXk35J5Rlg
+      /2u9zL1pLhYg4vPR3tpK9uzZWD9iayUeIYoW3fsK5afuQAvTln/0c1RT2yUGQCZkSGf9HV+h
+      sDDpE7ccObKdsyWbWOC4uD0H3W6Ml1YYIIJrxMv5FrgcjxP0+Yh/zNa+1gMcZQFrSi481OP4
+      3R//HNXUdkXOAYLubo4eOEyPVyavchnTpB7219Qx0OChJbOQG5ZWMtKwl5MdHgRjKvNWrmZa
+      kkRguI3qg0cZDonEPRpWA3JwiOo9++nxiWSWLWRFeTaR4Q4OHT7GQEBLYdUCZk/PQvcpjbfO
+      2oN0h330dbmwFy5kxYJCRL2ZdNPYwR8aaWXf/qM4ozHcnhRmAjFvHzXVh+n0COSVz2dhSSb+
+      /mZqjtTjks2UzltCeYEDzZX40FTXhEsPgKuDrbu3EzVInG8CTfPVMWosYn6pBcmgx26fQdWM
+      NrrzV1CWasJskAjYs5hZWUgsOEjriRYyV6Zx5K1ajJULWG7T0Fx9EhQ/dbvfJpxdyZIkmdZD
+      ezmRdQv6xg5wFDKvxIbeauBiWlX9LSfxTF/NwqXTaT1ynN6yQuz9DXSkLKLM3sv+nXU45i2h
+      zODnxKEBiLk5Xn2MSGopS0tkztQcpSlpCbGzHUiZs5ibasJkUg/9qebSA5A0jc33rnlfE8jT
+      lwf1JzjpS6GgqJz0rDxSk6z4M3PIcUAsMkpXYyNNIz5CoTA6WzlzPWE8uUvZXJYDgNNcD8Eh
+      GqKZ3FpRjF4SyYk082xbhJuy7TQcbsDlSiWnyEBaShJaUQBERBTOd0XJcpBweCweRks+lfNm
+      kQNEzzYQu6C/ShnuIVy6hIUzMgEP3XWj4BulX5fC0tLppJglrM4mqkc1zHHYaD52Er8zi8JS
+      M6mptos+r1Fd+67IVSC9KYOlGzezct40ButrGYqAogRwuyLEZZlotI8ReQZ33nc/t6ybR5IW
+      MBiJdbcyGIoTC43i9Mqgs5IWG6R1JEgs6qWl1U16qh5NciHrbtjA/CIb3Wc78IXOH81JpJq7
+      OdPuIhaPMdB2lAEx9dPPJfQGgl0dOCNxYgEPTn8MDCZMASd9Lj/xiJuO3jhJFg22zFKu27iB
+      8hwD3S3NeNVL/lPKJdYAAlp/L2++upOgJHK+CTRT6GDbtncYCsLM5beQrgNNQRHtzz9BfVo5
+      99wwB4f8Iv/1xDtkzighzWZF1Bcyt7CJ5598FCEphxyLDY3kYOmKUrZu/RXbvRoyypdya54W
+      b/MJtu89wnDUyKyla7EYzufWRPmq+ez40+941B0laVoV69YXoQO0RuO7bXWt3ogogkZvwSiB
+      4ChhUeZOnnniP5CS07HpcxH1qSycncvOnc+wwy2QV7GMGzP0jDQcYOeBU/hFG/PXbMKq9pxM
+      KYK6PsDlUxQF99GjeNSOsElL7QhTJTS1BhgHRVEI+f1oo9GJLorqMqkt2nESJAnJYpnoYqgu
+      k9oEUiU0tQYYJyUUItLXN9HFUH0EwWRCm5HxiduoARincEuLehXoGmWcP4+0v/2bT9xGbQKp
+      EtokqAG81G57jbePdxPTikA6a794M3PSbFfwNWT625sYiZgpLc2bDB+K6pJF6D9Vza/+8xfs
+      axjGUXIdD3//O5Pju5ZTZnLPl7eQnm7+zF5DURQUWb0iPHWFGRwS2fydR3h4mpXOV37EK02B
+      yREAUMYO0Au6LAJDLezatpPWUYGSReu5bmkGp97cTetgN31OgTk33sWq0hQ8rW/zwrajeGJ6
+      pq/YxOb5WXQ3nKGrq5m6hm7iqWXctnkFKBEGGk9yZO8r+I15rLtxHUVJCsd2vcChJie65GKu
+      37yR4mTtRY1GVV1rLFSuXjH2z6ibbqeD6VXSJAnAUAN/eOst4joNkM7a+zZi6etCl7uEO9fn
+      YNabkIjh98CiO75GnjjM3pe205B1LwXWHJZen4IQ83D8nZMMz88gMDKA1zyT+7+xmbO7D9If
+      9JMZjxAx5LD5/lsJN9fTOdxHQUo+2SULWFeowTvSRevxJnLWll/GjTuqiScgCDKusyd5Y89R
+      bOWb2VBknyQBSJvFPV+++YImkIJPLKJ/8DQna/swpeQzZ24uWksqyWYJiUxKiiR6fX662ttp
+      94YRlTDeQRduAH0KM/JzMEp6rFYjUQ0gWcgryCDJpMdjtGIUIBIaoOVUKwGdjrDXjWy0EwE1
+      AJNU8OxRdtR0UrzyduYXjd3YNDmuAilxotEIkUiESCRKXJZBNFA8ewkLq0oQPF04gyDHQoRC
+      YQKDjRxr15OR5KdzWGDe0lUsnVeKw6i9pJeNRJxE9YWsXLWSMvVOsMlNcbJ/dyNpMxdRnqkn
+      HAgQjsYnQw0gYY8P8sZL1YQASGP13RvIDQ1QvfsQfUEtZctuJMcGzQN1PP/rM2h0qazcfDPT
+      zHpSKnX84dmnMWQVkV2YixkR2W5Hoxt76waHA6tOh95kwaodu9tMazZjEwSs5gySlFd4+jc1
+      FJRVkZ9j49IipLpmhAP4hk7w2+89y/mpzJb9+Y+n0mA4FwdfP0P5pqXYr9IrqsOhr20X0xE2
+      CWqAi2Vl9ooqDFf5VQWNhKgOhrsmCYZPP1ubQjXA1acoCuFwGIPhasdOdaVMjpNgleozogZA
+      ldCm0DnAxIi7XPibmie6GKpzxKQkjFWVF729GoBxinZ343n8iYkuhuocQ2WFGgAAFJlwJIKo
+      0aGVPr2lJ8fChKIKeoNBnfhqClHiYUaHBnH5ImjNDjLTk9CJEA35GXV7pnAAYj6aGpuwZ1aQ
+      Y1dwen1YHGkYPqY7NzzUwoG2EIsWzAFXPz4sZGbY1d7fSS1I66E9vPLmW7QO+hAMadz6ze+y
+      1DbMwbf3c+zMkSkcgAvEAx66O7vIs358AN4jIGokJER11OekJ6BzFHL7g98nP9PMyO7HeLo7
+      xPLZZnIqllNUpE+EAPjY9+LTHOz2o9+9j+IVd7OlyMe2bXtpGQphzalg88blvDfTaYzB/k68
+      Qi5JZoXaHc9R0+ZFsuWw4oZNVORa1Etnk4aevJmlgIx3qJ3D7XYWrjdgSnFQngJ9dbWJEAAL
+      q27/IqntXeSVLyBFDzHPAPmlZVgzAwy0ddE86mWh7r1nxGNRYoKMqNGSMW0WVZYwHtcQ7afb
+      mJ5bhWni3ozqkowNgR48tZ9tdUMULFrP0rz3L1iRAAH4oBiDZ9sZDomkpWWgjA4SDsVB9+Et
+      g8Ee2toDJOWnoxfjjPiDqFNgTS7+xr282RRl6XWbKMowf+icLiECIIgynpF+WptbCeekEo4o
+      6I0mLEaJwVicj1vqV45HUDRG7FYzo84gEflK3oes+szFh9i24zRS7gxGO+oZ7YCkvJnkmfy0
+      tXXR2dA6hQMg6khLy8RgktAaHRTlpnGiqZ64YRULZxTQX3Oc0yMWsmdUYk8zIelSmZYbQ6/R
+      kJyRgwkLFksSeWndnDrVRMa0Eipyzegn+n2pLl5cQ2amljcP7abu3EMlG77Cpoxu9ry2jZ6A
+      OhhuXNTh0NceQ2UF6f/wvy56+6lbA1wlotmMftbMiS6G6hxtfv4lba/WAOOgDoee/NRL2qqE
+      pgZAldDUc4BxivUP4DxwYKKLkRA0Nhu2LZuv6D7VAIxTbHgI76tbJ7oYCUHKzp68AYiHPHSd
+      PYszEEPUmcnMzSPNZkS8oiPO4nidLuIaM3bb2BQn/oEBlLQ0LOLFtvYUgj4vUbRYLUZ1QNw1
+      TJEjuPrO0tI9Qm75ErIsoMSCdDfXUd/SjzGrlDkV00nSi0RDHrrbG+mWc1hZkfPuPq7aOUDE
+      OcDppkYGRpwMdTWy98Bx3OGPXnQ34OzhdF0T/ktekzdKd2sD7d1Ozl/aGjhxgt6P6+oNjlJb
+      fwanP3LBgzIjvV10943yMc9SXROidNft50/bD1K394/U9AKKwlBbDa+9vIvmjk5q92xn58HT
+      +CMhjm5/jl3H9vD7l06+by9XsQmkIbWwnPKZMzEqPo6/Wc1ANEySTiASChKOKUg6PQa9Fq3R
+      Tma2GZ2oEAsHicQVYrE4Gq0eo0GPoMQIBoLEZAVJb8So//QJa+VYlEg8RiwSRVZE9CYTeq2J
+      vKxMTDoJRY4TCYcIRyP4g2HiRkCRiYZDhCIx0GgxGg1IV7bKUl02DalFc9mUtxDn4REazj06
+      NNiBY84d3HZDMbHOQzxTcxZncCazlm9hprEX13+637eXCTkHkGNhgoqAHQXPQCu1h2vpGA1j
+      zpzBimXzMHq6OdXsY85182nf8QzH/FYUnxfRnM2aLRsw9xxi2ztNBCJgTStgxbo15Jg/uTIL
+      dJzgjVNtxNx+vN4I+WtuZUNumNpT3cyZswCDr4Xqt4/S4w0TjBqYvTKDiK+fmrd20zIaRNQ7
+      mDV/OfNKM9GqGbgGiBityRgB9wXfh8Vop2vnKzwzmo1JdnK8U8t1qyLkZmYCwx/6obyKAYjS
+      dWIf9Udr0Gv1JE2rYq6k0FhXQ32nD5tNS8+pepoKp1F1wTIAktFO+ZwNzMnU0VazHY/fRUft
+      MPNu/jwlVoGuY9s42TRKztzUTy2BKWMW120qR+qpZrvzggaOHGW4v4ekqo1cX5JEX9MZPBrw
+      9TXgSl7CvZsLiQ42UXO6gdGCTDLU2XGvTYJAXsV1bAxpOdrUjywKaLQaFOHjfxyvYgAkMmbM
+      pcoucbquh+nT8zGIceIGO7NXLmNmjgXioE+yIw953n2WVmfGkWRFEmMYjHoiRAnFTNhNEoIo
+      YLaZiI2cb8OL6EQBVyREXFYgPkr3cJQ8Zez1bSkpmLQi6PSIogbODW4eW3sAzHY7kgAoCiig
+      RMOIZis6UUDQm9FJMWLxq/eJqS6VAlozpYtvpGyZQF/tGwwpPiyWjx/CeBUDIKAzWckuLiXD
+      ZqWuoRZhRjnpDis1jadQvA40ipbMslKSP3E/qcyaEebgW/tIMwt4h71MX51+7m9aMrOTaag+
+      xl5XN5rgMD1p01gqagh/UslECb1ez6lDO3ClWfGMeEmdnoIxawba3QfY409BCXjRJJeSrN4N
+      c42I0FN3mP2HG2k/dZje1F8yvHAhd8+18/bunXS7Ffq6eynb+GUcujA1bzzDyd4eDh/28ctf
+      jlC5ehWlVufVC4AuKZ1iYxy9KCJlFTNXMjIs6MkpmYeia2fAHUZnTiHFZMRkzKK0LIYByCid
+      g6AHBJGU/EpsJg22uauY09TCSEAha/FsilLOvw0Bc8Z0li/W0tYzgpw0k/VFhWMnrhn5lJ6f
+      OdRRyGyjGYxmKkuN2Ew6tNPnMFvTxpBfJmVWAenpDszWDBYuUTjb60RIzaOwKB+j2nd+zRA1
+      EnqDgfz5W8gHBJ2EzmghNS0FZyzKyluuZ2FVHpIcQtIZMBiK2bIFQI+kERFEjToYbjzU4dBX
+      l5SdTfZPf3Jl93lF95aApJQULDesn+hiJASN/cpPfK/WAOOgDoee/NQWrSqhqQFQJTT1HGCc
+      ImfP4nnp5YkuxqSlmzaNpHvunrDXVwMwTrLXS+j4iYkuxuQ1wT2Lkz4AkWAvNbuO4QKQ9OSX
+      LaIyT52/Z7KSY346ThzieFeQBdfdRL4dQCHQV8eLL+ygK2Rj6U2bWVmSQk/9Pt7YUUMkpZwN
+      W25geqrhvbE+SpzO2td54fXj+ABHfhk333oHGWIXO59/kZP9YYqX3DwFAhAbZTRgo6QqHUSJ
+      JNtHTPGmmiSC1G9/gQP9OpLppcN9E/l2BXm0kad+vRXLjDksthuw6jS4+xrYsf0oKRUL0bs7
+      2Ll1O9a7t5BpHIuAIsfobjlBJGseK4pNGJPSsekV6p5/nHpxBYsXiTQf/p/JHwAEEVt6PqWl
+      Be8+FPWM4tPoCQ8PoNgycWi89PQ7icQF7Bn5ZCYbibkGGQpGCHp8yFobedOyMQpRRvt6GHSH
+      kGxpFKRbcQ92MeKNIOqsZOZkY9Wr1w0+O0aqNt1PVdhLza5nCQIQp/VEHaaSJdx9y1rM547Y
+      rrZjaJKWsGH9KkyRbp57tZrBXg+ZxWN9BYosE47A0g03sSr3/P7d9LVYWPit61mTrCE3yT0F
+      AvARfK2HqJbKKAj0IotJiJ5jPPebNzjrjlK0eDOfv3MTujOHOC7lYHYNEfZ68Fm3kDLcjtM9
+      yIArhD5DR7ZN5PS+F3n5QBsxQzbX3/lFblwy7aovxZrYYoyE4yRJDkRBJjjQyBv1AVaWF1M6
+      w0kkrmBEIeAPEolcMHOrqGVa5TqMqRD29lJTXUvGvPUUzPCz6+QIK5ebaa85OTUDABKWpFTK
+      KgsQUDi5zc3KLzzE3SYN7Sf3MhyAHEFDxvR5LHBAqOF1DvrDRNr6SV28gNkpY+v++l1NhE0L
+      +dpf3k50tIee4QHCqAG4uiTsBhu9wtiIX8ki07r7OPMWfYHFq4oQBIHwoJdIPITO+t44ekEU
+      yC1bgEarICs6RobbcLcdp/90Pus3p6HRihQtrpyqARDR6TTnTogUUESiET+eSBSXP0rKRz7H
+      RkmxxL7aWrzpdmK6JIrS4ijECXq9+JxOQvHMq/kmElCY3vqTnGxu5/SJE0T6XiWycB6rZ+ay
+      58V9vOzrQ+/vwVdcgiPu5/i+t+nyCPQ31RDL2UxhlgFXfxuj0WRy0nv5/U/fxjIrEzHipK07
+      xrq1MzFkb2Xby1tpcUgMtjdN/o4wvT6D4uL3z/luzJlBgeV8tkUK585G53bila3MX7qSHAuY
+      C2aRd+7GFil9FjMcAsklC5mTrqW5/hSeuIDZUsCMQiNOpwd7QRXzKvPVX//PVBzfcB/tHT0I
+      9mL07hbODnnRZpZz76ZlKM4eBsnj7g2LMBu1aOQQ3R1nsc3awF23LsQqQsjnwuUNodGWcP1N
+      0wn2d9LjkrjurgeozLSz4r6vMFMzwtmObpIrblXHAn1Q2NfPmy++Qd7qW5lb4PjEe43V0aDj
+      Z6ioIP37Fz+Z7ZU2RZtAl08JBUkqKMFIDAU+9WZ7jd2Oacniq1G0KelSJ7O90tQa4ANCg80c
+      645SUlpCsln61BpAHQ06uakBGAc1AJPfpD8JVqnGQz0HGKdodw/+7dsnuhiTku2Wm9Hm5Hz6
+      hp8hNQDjFHc58e/bP9HFmJTMq1erAfgQXy/HWjwUzJpJsh6Ih+gZcGJ3pGIxaj+jF1UIeFyE
+      4lqSHOpC2BNBURSCzm5O1dYSKVjF8hljfTtyLEjLkd1U1/dizKrg+vVLSNHBSHsNu/efwK3Y
+      WXXz7cxwXLAAqhxhpLOJIy19lMxZRWGqHvDTtHcvb5/pJALYZyzl1lUV1953PdJQx5nOM7T0
+      +sceiPlobGrF5Y188hPHRcE93E9vvzoh7kSJRwd47bfP0nbmEG81vjd/50j9Vn659TSC2YYu
+      HiAYA7z1/PejrzIsWrAYovgD799Xb+0Onn/rEJ1nT9DYNTakjtAgO6vrUSQzycnJ2M0GZP/o
+      NVYDxIep6zWxYHYOIz0dBArK37cquyLH8LuduAMRdCYbSXYLYsyP0x0iFg2haMyYjQp+XxDR
+      YCc12YISdDPs9BJTRIy2ZFKsOsKBAKFwkEAgjKI1k5psBRQiQQ+DvT0g6klKdmCUFHyuYTyB
+      GILWiCPZgVF7zf1mTAkabRqbH/gmmvZXeXTg/GHp5eCrh1j9tX9lQ74OFBkEmdbnn4eNX+Mr
+      a3ORBBlFef93klG1li+UxWiq3crouccUjws5v4xNN91Iln2sJaHI8WsrAOHBfnypqeRZkhhW
+      mnEH4pjebfUo+EY7OXmknn5fBNGUSuW8+aSHj/KnncMkJcn4nT5Mudlo/B6CUSurb9+IoecM
+      1cc7iSoKinkGt24qp+PEO5zuHUWWZVweHctuuZ6kuJ+uxiba27T4AwIlS1YwN99K64mDNA/F
+      UCQDheVLmVea9qHVxlXjJwgajBYzaIQLeh97aOxPJefA0zz2cojMihXcuGo6La16zMW7+K/H
+      XAj2IjbftpE863uHskZnxCxF3te8Cfu9DJ/Zy1M9rWRkFbFi7WpmZtmupQBEGej1kuLIRWcz
+      oZMF3C4fWWnn/qzI9J2uZn9tH2abnoCnG9GRS3KeltyyZaxZlInz2EuctKzguhIT7fu24g5B
+      ktFI2O9ixONneNDPwKZyEE1Mq5pFZXEmXQeq8RIFQU/G9LlUzi3F39xAp+xDEW1oNQIe5zAe
+      X5iINpdZpWlYJvRzSiQxooqAxZaFzRKlv+5lXtDdTapGRismkVGYRGjkNL96OoW//eYyPmnW
+      SimtjC03hugZDRIYauE3L8X53pc3XzsBkEM+OjvrONh0gGqtSCwQJ1+Xy8w069gGCggGGws3
+      rmbprFSEWBxZ0iKPDKE3m9BpRAxGIyazBUkErVYixjDV7/Sz6KZ7ydT7qP7920QANAbsdjOS
+      qEGnlRAEQNRisZjRSxrCGi2SAD5vK13uPG6770ZCvWc41RpFnRv3aipgXrEO66I1LE010lkX
+      4rWDLhYV2xjNm8+N87MRAsV0//AAwyzj4wdVKMSQKJi1mNkOK3Hfafp+XsOw7xo6Bwj5vcjW
+      Ev7s26vIMIpER07x4sEhwpwLgCiSnJHNqeoD7Oy1oZfM5JaVkfuJTXI9qQ6F04fepsUg0u8J
+      UfBJm3+ApDEjhJqp3j+CIIeJkjGOd6j6JLFIB8//5Bnahuo44DlGqKmCjZtvZt7aPH7xX49y
+      QALQMOfWTcxKM7HnF8/w010KSjxI8rr7yA72sH13L0s3zcFV+xZ/eusIjS31+HVnOLnkem5b
+      aubgG3vo9kaJhoMwfQ1JMe+1MxQiFgng88WwOGxjU5TLIYYGAzjSLXjcfkxmG3oxxshgL8Pu
+      EBq9lbTMdCyaAN6IGYdVS8w3jE9KJckAQdcwsiUFXWCQ9l4nGpMVk6LBXpCO4vEhGIyYdFpC
+      bjcxkxFtLEpU1mA2G4gFAoQAk17C2dfJkE/GkpSMSavFnmJ/91dDHQ06Puk/+D6G8jIA5Ngo
+      x3cfZeT8H00OZpVVkG1V6Gqso33Qjy2rlPLSbPSCgrP7DKeaB4gb05gzvww7Xhqa3UwryyHU
+      3UR9c/fYFSNA6yhiyZwcXJ3NNHcMophSKZlVSqohfu0EYDJSAzA+FwZgolwzTaDJSkrPwH7X
+      nRNdjElJSk/79I0+Y2oNMA7qaNDJT+3VUSU0NQCqhKaeA4xTpLUV529/N9HFuKaY5s/Hfucd
+      E12Mi6IGYJzkYJBoe8dEF+OaEpvg+3wvxeQPQCxM24l9HGoaRhB1ZJfOY0HFNEySupr1tUKO
+      ujn+1mvUeZNYv2ET2ef6NlEUBhp28uud/dz9+TuYlhKn9vnf8+yekwSA1Hmb+c4963GYxkZf
+      KXKE7pN7eOGVHXRGU1l3+32sn5uLGHZTu+M5XtxdT1LpGu7+/G3k693seuYx3jg+RFrVDXzl
+      vo2kfcRqqZM/AHKUcCxO4dw15JkDNB8/xQmDnkWl2WguKwNRuk/VMShkUFWWMwU+oInmo+bF
+      Z2gQstAqTkaCvBsAJe7n0GvPcLBvLps8ETA5OTIkcONdXyIrzYTOloblgrlYfSNt7NnXTOWG
+      z7Mq3MWe6q3kZT2AruE53qzTcvOffQ2LJGMG+nc/wa74Er74lVSG6rby5B+z+LsvzOGDUydP
+      ie9X0htJSc8iJxlMIS8ng14ioSA+twtrWha6uJ9hlxeLIwPF3UnL2QEi6MktKSdTH6SjtY0h
+      bxRzej4z8lKwZedhxIwQC9Pb0UjvaAjRmMS06cUkG9WxoJfGwuK7v8FidyfbDx6+4PEo3fue
+      oS3nC1yf3IfI2FoLmpQMplfOpiD5wzc/WVJLuO9bMxFFiDhtnB0MIxGm4fAZlnzx31ia995z
+      zgwHKKiooqLMwaihj7PVIWLwoQBMqatAcixAz8AIksZIzO+m8XQdnijE/KM0Np7BFYLW2rfp
+      9kQIB714AzFc7XXUdQ0RiQTx+gLIcpT+s820dzqJx+N43U6CkQiu4U6aW/qJTfSbnCIiPbW8
+      2pTC3ZtmcP6wjQQDtO37Hd/7q2/yVz/8OfsaBold0EslCCKiCDF3Ey/+YT+2otnkpgbobgtw
+      4Okf8ODXH+THT+9iIChTvP5O5N0/41tf/SY/fqGNeWurPnK06JSoAdydp9m2rQZJVpi28AbW
+      FWWjCQx/5LZ6HfS296IrLcVuFDHFjbi7G4llFzMjx4QovtduUpQI3qFe6psG8AaiZMy0M6sy
+      B3X5jfFRIiPsfOs4ttwKgj2djAwN0dM9TPGSOfzlP/wYXzCKu+sIf3j1DYrS7yY3eayjUZFj
+      uNoP8Yc9fay8aTPTs1PQawbR2VNZvuVLFJkVTux9lde3JbMm6QiR6Vv4qztSGG7aycG3mym7
+      Z/aHpracEgGw55fxueWLoeUA/XoLGkBAQZZlZEUm6HXi8Y1NnZ07dwO3lwfpbT7Krv0SN68t
+      4Za78hntbOHAO0dwOJa/u1+//ywj8TLuf/Au3O21nGyVUbvNxy8WCOJ1tbFnXw17Yj7OtPVT
+      f0pDdtkdGPwiudMKybR7SauuxR95r86NePrYf6iDZTfdTlmm8dx9MxnMmmVkRLGRPy0Zf1s2
+      x4cHOLa7nfyv3sX0HCspYhfV/30SJ7PJ+kBZpkQAABAMFM9bhq7xOEePB5lflhGrbKsAAA0i
+      SURBVIkU6udPT/8aq8WAbE4FoKd+D+80uYhhYPqiVGLODvbtP8qgL44hYxYmvcT5W0z1WgeK
+      awe//+0J7MkOjLr0iXt/k9Ywbz3yGL85cIyu4RGMyS+y8P4f8k/f/jfuBgh08sSz+1h13U3k
+      R/t5/bVn+HFtB2G9g6ob7yXbJnBszxt4HVWUWut59fEnGd36GnqA/EU8/NADlC5bxtO/+Ve+
+      9mMPjpJF3PuFjRSUh3j0J9/jpRE/htRcbrjzQZI/onSTfyyQIhOLxUCjQxIVlHiMcFRBp5OI
+      R0IEIzFEjYRG0qDT6pCjQULhGAoiBrMZLTGCwRBRWUHSGTHqJeRYFAUNkiQQCfoJx0DS6tCI
+      Alq97t0TJ3U06Eczr15FyjcePPe/OAGnC0/4vcUrtJZkUiznTkeVOIFgBJ1Oj0ajEPZ78fpD
+      KBo9VpsNg1YgEgwia/ToNFHcw27enR5B0uOw29FpZAJeN75gDJ3Jis1qQiSGz+UiEI4j6owk
+      JVnRih++LDj5awBBRNKeP7cXEDRaDOcu1IgGE9oPNPo0ehPa910P1mKyvP+Kg6h971qB3mTl
+      Iy4fqy6aBpMj5eNvVxQ0mEzGd/9rsCRh+MA9p3rT+YUvJJIzjXyYiNmegtl+4WMSVkfq+dup
+      PtbkrwEmkKIoBIeGoOPsRBflmiKlpqIrKpzoYlwUNQDjoA6HnvymVD+ASnWp1ACoEtrkPwme
+      YKFTpxj86SMTXYyrxlBRQfrf/91EF+OKUQMwXooC8cSZLUiZYu91cgXAP8ieHa9T2zaKoigI
+      goA5dyn3fW7pFZytTeHdywKC8KlrhCU2hXjYybHtL/JmvZstX/lrZqcryGEXh1/5FT9/ZifB
+      tEV867sPUS4d4l/+/GecPv/M9IX84J//hrUzxm6MVxSF8GgLf3ziZ/zh7V6qNn+db39tEybn
+      Hn547//mpAB6RzZf/v6j3FUZ4dl/+QG/OzLIjHVf4Z++tQm7dHmt+ckVAHM6a279EitCAWp2
+      vU7OmjvJ/6T58C5LjJ4z9QwJ6VTOUodDf7Iwp/dsp1UqZ21lPe4QgEzXmRN06ufx+O//gnjj
+      n/jp3sMs/vJNPLprCwDBgQZe2X2C/OSkd/ekxIPs+P1TOKu+yR//roSo14tWA57BTnK/8SSP
+      fK7k3JYRan/1c1zrvsdL/5BJ+5s/4rFXq/jebfmXdUI7Bb5fGXdfLy4M5GalEhrspj+mJc9h
+      ZWRkkHjQSVNPnKqlc9EOnuFAbTNRSUfKtHksKdBydjhAVk4+ptgoDX1+8nMzMTiSScMCkQBN
+      Jw7Q0ONDsmYxZ9ECsq1T4CO7YgxU3ngPlREvNW/VnxspK5I/exX5s0UE4gxLNvLSzWguODp7
+      2uqQrTPJvWDIcyzWS99QDjc9UIFRC8bkseXMXcODWPIuXEQjhssrkO4wI2r1FKzeiObHNbhv
+      y+f9q0VfnClwFUjBO9hPz6CTOBAc6adzYIRYOEDHsb3sbnSTV5yPYbSR7TXd5JdXMTtLoqnP
+      RSwwytnu3rEZxEIuWrp6CUZjjA700D/oQ0ZAb01leuksMmwR2hu6+CxXKZgaBARBADlKV912
+      XtjnZOWyKvTnmyiyl1PvdFGypAzDBe1LRRmg+VQDj3zjdjZsvIP/87v9DIdkBjsaePy7W1i7
+      6Ra+/x9vMBDRs+jmldT+9CFuuuEmvvTw/9DV3YXzMks7hX/OFLDlsGrOcvLtEgPHuileVEVF
+      bjb0OpHcn966j0c9dDWe4Uyfm0AgQnKRnoqFhR+6qUL1fkrYxenqN9k3PIMvPLgR67s/szKu
+      w89xuvAWtqR88IYXE9klS7jzH+4lS+Pl5d/9F7veyePOB57i5AMgR7y8/crP+e0LBXzn3jX8
+      6y/XjL2WZxf/+KMgqZdZ1ilQA4CATCwWR44EGBroxxcCEDGbrRj1WgRAqw3T0zlMRI4TCASI
+      xWQEIB6LIcejOEcGcLmD79tvMNRHQFfJfQ98lVvXzcXxWa3QNKXIDDXWc9ybzX03z7vg4AfC
+      PbxWI3L72oIPHXiSpojCrF7O9HhRBBGjyYRODHBs5x7OuiOgkdDrdWgUhajHyWgwSjzYz85f
+      bsO6du6njvn5OJOzBhAEtDo9Y4P7RFKykjm6fQf/Wa0h1e4guUyDIAhotNK5bQSSpk8n860d
+      PP7/9pJiFfFlrUZrT8URruXZp2pJSk1BTi5CFEAjaZEEEaM+E9H1Ev/5xNtkFxWTYjJPjV+M
+      K8bJnsd+yiPP72fA50Ix/J7CO/+GhwtO88KPXuCpn50bsz//Pl755/sJnj5JsLiMIsu50YqK
+      QsPBF6j3V3Dz+hIWXTeXX/78WzxyNsqim7/K1xcUET5xikceupNTgzHKrr+fv3iwBL3nIA8/
+      /AhNTijb8CV+sCzzsq/WJeZYoN4j/KbRwv3XzRzXbhJxOLS+ooKM7/+viS7GFTM5a4Dxshew
+      pFRtz6gStQa4QhRFIeT1In1wmcIpTNDrkJI/6t6qySkxa4ArSNDp0NrU2+QnK/WcTpXQ1Bpg
+      nJRwhOjo5XbDXFsESYOUnlg3/qsBGKdwcxNDU+QqkJSVRfbP/n2ii3FVqU0gVUKbcjXASNMh
+      /rRjN6NhHRqdmWnz1nLTkukfOSXGp5HjUfw+HzqLA9fZA5x2FnHd/A9OrTRVyfhHOjm6dyfb
+      9x9h+beeZGMxY0OdX32KR/9nJ/HcZXz9Ow+xcoaVhl2/5sn/3kqL38iazz3EA7ctI9303uHl
+      7TnBb594lNcOd5O/7F7+9uH7SXcd56mf/YxtJwcwFCzm7/7x71mcEaH6D4/yo9/tQSxYxcN/
+      /20W5392FxmmXACUuI25m+6monAair+HN19vwisXkSxe+qS28UiI3q42Uovno8SjRGPylS/w
+      NUvG2d9LKH0x967z0BIHUBhpP8mR3mR++OsX0dS9wisH9jM9eSE11d188Wd/YK5phOf++AIn
+      G2axbt75RfBi1L76O8KLv8tz/1iCEPSCDgZbmqn66k94sNjBaP2vefz1JsqWNrK1fxa/eP67
+      BA4/xeOv1zP/wWWf2YE65QLwLlkmMDpM1GLBKERoa+vDJgbZ885ppi1aTebocV6vaSKmTWbh
+      +k0szDfSU1fNjuozRMy5rFy7miI7yDGZy8jOFCCRW76MXKBl2453Hx0NecjMmkNBsgmpajbJ
+      gy1EQ2C26fH5oij6OAatEav9wvl7umnoyGPzl2Zh0gLasfsA8lfeSYEgAGEC/X5yijPpazpM
+      xbrrSTMZYPkGCg4cwcWyyx7s9unvcspxUrN1D2/FzNgyi5m/YCFaMY5nsJmjZ0LMv3ULBXYN
+      I5oCVq4pQIn0UFPTzNyULE71RZi9egMZdjMWux4l4mV0aJAkGfXOMAAFosTQmqzoBBB0evz+
+      EIpoYtHSmTz5fx/g3/vM3PTQt1mbdeFUMU7azzbz2Dfu5HSXnxnX3cWff/XzVKTr8Q21sH/r
+      LkaL1vHVlSmcfsaAw36ul15rxebsZwjUAFw8Bws330vFtALivkGqd9UxVLgIBCuVqxdS5DBA
+      ZISzre30+8LEZQ+u/lR8pkpmZlk52VRHn9ZKfnklhWr/1vsJoFMkQl4nYQWkgB+DUYsc7+Xt
+      /aN84f/+llKTk1dfeJkjdZmsW5xz7iqLnfyCMm78wb9TaIRDrz3OgT3NlG428sabtWTO28Ta
+      ylwkEcwWPwNDEZgGhEYYTMom8zN8S1P3KpAgIIkKIbefkALoTdgM535ZwsN0BtO4fuMmrltQ
+      gkWngVgcY3YJK9esojRFw8DQyPvmpleNSbcm09d7mKYBH401NTi9EkaTgnOon4isAAI+jxNX
+      6MJbh/KonN7PnuN9xGSZSDCAzmbl7LZXic+9gWVVuZxfCCanKof6V/fT7fVz5s2XGMwt/kyn
+      o59yNYDWFKFh+xvs8oJGn8Ss5esokLS0WSzo9eca85Yi5qe8xlOPVZNeNoOcrFQkQaa38SD7
+      jrZCchHX37AAgzaKPTll7MsxJpFsS6RZQv0cee5JfvLkawwCsJX/WPZ1dvzzbWxZ0MK/PXQP
+      yszb+O5f30hOksitt8/kkb+8h4aglQ33f4cvL5vG0KnXeP1UNvd8bi4L77if9v/4F27/PwMs
+      vONv+c6dqZx8vIVfPHo7vwAQtcy76x/5p69v4ltrn+KvP38Hlvmf55++W8lneQqmDoYbh6k2
+      HDoRO8KmXA1w1QkiaKfG0GpBm3iHg1oDjIM6Oe7kl3iRv8IURSESUeeKmKzUGmAcFEVB/fgm
+      NzUAqoQ2dfsBVKqLoAZAldDUAKgSmhoAVUJTA6BKaGoAVAlNDYAqoakBUCU0NQCqhKYGQJXQ
+      1ACoEpoaAFVCUwOgSmhqAFQJTQ2AKqGpAVAlNDUAqoSmBkCV0NQAqBKaGgBVQlMDoEpoagBU
+      CU0NgCqhqQFQJTQ1AKqEpgZAldDUAKgSmhoAVUJTA6BKaGoAVAlNDYAqoakBUCU0NQCqhKYG
+      QJXQ1ACoEpoaAFVC+/8juu0qj131RwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
